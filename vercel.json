@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "React-Todolist/package.json", "use": "@vercel/static-build" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "React-Todolist/$1" }
+  ]
+}
